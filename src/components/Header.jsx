@@ -11,10 +11,6 @@ const Header = () => {
       </div>
         <Nav/>
          </div>
-    <div className="buttons">
-        <button>Login</button>
-        <button>Sign up</button>
-    </div>
     </header>
   )
 }
