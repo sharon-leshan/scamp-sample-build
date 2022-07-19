@@ -1,5 +1,24 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 0.5em 1em;
+}
+header .left {
+  display: flex;
+  align-items: center;
+}
+header .left img {
+  width: 32px;
+  height: 32px;
+}
+header .right button {
+  text-transform: none;
+}
+header .right button:first-child {
+  color: var(--primary-color);
+}
+header .right #signup {
+  background-color: var(--secondary-color);
 }
