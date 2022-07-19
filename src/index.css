@@ -1,3 +1,14 @@
+:root {
+  --primary-color: #667085;
+  --secondary-color: #7f56d9;
+  --primary-font: 'Inter';
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
