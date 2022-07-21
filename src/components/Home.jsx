@@ -1,8 +1,8 @@
 import React from 'react';
-import FormControl from '@mui/material/FormControl';
-import OutlinedInput from '@mui/material/OutlinedInput';
-import { Button } from '@mui/material';
+import Blog from './blog/Blog';
+import BlogMenu from './blog/BlogMenu';
 import './home.css';
+import SearchUI from './SearchUI';
 
 const Home = () => {
   return (
@@ -14,31 +14,17 @@ const Home = () => {
           The latest industry news, interviews, technologies, and resources.
         </p>
       </div>
-      <footer>
-        <div className="newsletter">
-          <div className="left">
-            <h2>Sign up for our newsletter</h2>
-            <p>
-              Be the first to know about releases and industry news and
-              insights.
-            </p>
-          </div>
-          <div className="right">
-            <FormControl>
-              <OutlinedInput placeholder="Enter your email" />
-            </FormControl>
-            <Button variant="contained" color="primary">
-              Subscribe
-            </Button>
-          </div>
+      <div className="content">
+        <div className="left">
+          <SearchUI />
+          <BlogMenu />
         </div>
-        <div className="footer-links">
-          <div className="left">
-            <h3>Untitled UI</h3>
-          </div>
+        <div className="right">
+          <Blog />
         </div>
-      </footer>
+      </div>
     </section>
   );
 };
+
 export default Home;

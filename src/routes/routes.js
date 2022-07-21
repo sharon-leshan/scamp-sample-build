@@ -10,6 +10,11 @@ const routes = () => {
       <Route path="/" exact={true} component={Home} />
       <Route path="/resources" component={Resources} />
       <Route path="/pricing" component={Pricing} />
+      <Route path="/overview" component={null} />
+      <Route path="/features" component={null} />
+      <Route path="/careers" component={null} />
+      <Route path="/help" component={null} />
+      <Route path="/privacy" component={null} />
     </Switch>
   );
 };

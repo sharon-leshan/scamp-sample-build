@@ -1,0 +1,25 @@
+.blog-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-menu h1 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #6941c6;
+  margin-left: 0;
+}
+.blog-menu ul {
+  list-style-type: none;
+}
+.blog-menu ul li {
+  margin: 0.5em 0;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #667085;
+  margin-left: 1em;
+}

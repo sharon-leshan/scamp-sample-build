@@ -2,13 +2,14 @@ import React from 'react';
 import Nav from './Nav';
 import './header.css';
 import { Button } from '@mui/material';
+import Logo from './Logo';
 
 const Header = () => {
   return (
     <header>
       <div className="left">
-        <div>
-          <img src="" alt="logo" />
+        <div className="title">
+          <Logo />
           Untitled UI
         </div>
         <Nav />
