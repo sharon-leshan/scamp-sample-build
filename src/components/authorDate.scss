@@ -1,0 +1,10 @@
+@use '../globals/colors' as *;
+
+.author-date {
+  display: flex;
+  flex-direction: column;
+
+  .date {
+    color: var(--text-color-2);
+  }
+}

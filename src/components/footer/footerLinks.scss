@@ -1,0 +1,16 @@
+@use '../../globals/breakpoints' as *;
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+
+  h4 {
+    color: #98a2b3;
+  }
+
+  @include breakpoint-up(tablet-landscape-up) {
+    flex-direction: row;
+    column-gap: 32px;
+  }
+}

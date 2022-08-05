@@ -1,0 +1,14 @@
+@use '../../globals/breakpoints' as *;
+
+.copyright-links {
+  &__content {
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid #eaecf0;
+
+    @include breakpoint-up(tablet-landscape-up) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

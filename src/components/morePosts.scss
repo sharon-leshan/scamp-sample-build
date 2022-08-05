@@ -1,0 +1,16 @@
+@use '../globals/breakpoints' as *;
+
+.more-posts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+
+  @include breakpoint-up(tablet-landscape-up) {
+    grid-template-columns: repeat(2, 1fr);
+
+    & > button {
+      grid-column: 2/3;
+      justify-self: end;
+    }
+  }
+}

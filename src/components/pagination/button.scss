@@ -1,0 +1,31 @@
+@use '../../globals/breakpoints' as *;
+
+.pagination__btn {
+  background-color: transparent;
+  color: var(--text-color-2);
+  border: 1px solid #d0d5dd;
+  height: 36px;
+  width: 36px;
+  border-radius: 8px;
+
+  &--text {
+    color: var(--menu-line-color);
+  }
+  @include breakpoint-up(tablet-landscape-up) {
+    padding: 8px 14px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+}
+.pagination__number--btn {
+  @extend .pagination__btn;
+  border: none;
+
+  &:nth-of-type(1) {
+    background-color: #f9fafb;
+    border-radius: 0;
+    color: var(--text-color-1);
+  }
+}

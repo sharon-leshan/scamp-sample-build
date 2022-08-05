@@ -1,0 +1,29 @@
+@use '../../globals/colors' as *;
+@use '../../globals/breakpoints' as *;
+
+.newsletter {
+  background-color: #f9fafb;
+  width: 100%;
+
+  &__content {
+    padding: 4rem 1rem;
+    max-width: 800px;
+    margin-inline: auto;
+
+    @include breakpoint-up(tablet-landscape-up) {
+      max-width: 1280px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 32px;
+      padding: 4rem;
+    }
+
+    @include breakpoint-up(desktop-up) {
+      padding: 4rem 5rem;
+    }
+  }
+
+  .privacy-policy-link {
+    text-decoration: underline;
+  }
+}

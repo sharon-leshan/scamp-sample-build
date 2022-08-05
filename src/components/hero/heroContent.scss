@@ -1,0 +1,21 @@
+@use '../../globals/breakpoints' as *;
+
+.sub-heading {
+  display: block;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0.75rem;
+
+  @include breakpoint-up(tablet-landscape-up) {
+    font-size: 16px;
+  }
+}
+.heading {
+  margin-bottom: 1rem;
+
+  @include breakpoint-up(tablet-landscape-up) {
+    margin-bottom: 1.5rem;
+    line-height: 60px;
+  }
+}
