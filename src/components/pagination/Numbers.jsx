@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from './Button';
 
-import './numbers.scss';
 
 const PaginationNumbers = () => {
   const buttons = [];

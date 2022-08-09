@@ -3,7 +3,6 @@ import EmailCapture from '../EmailCapture';
 
 import HeadingandSupportingText from '../heading/HeadingandSupportingText';
 
-import './newsletterCTA.scss';
 
 const NewsletterCTA = () => {
   return (

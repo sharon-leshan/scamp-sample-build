@@ -9,7 +9,6 @@ import OtherResources from './OtherResources';
 import ParagraphSection from '../paragraphSection/ParagraphSection';
 import Section from '../section/Section';
 
-import './section.scss';
 
 const BlogSection = ({ author, avatarImage }) => {
   return (

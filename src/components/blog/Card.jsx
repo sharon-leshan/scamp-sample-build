@@ -5,7 +5,6 @@ import AvatarGroup from '../AvatarGroup';
 import BadgeGroup from '../BadgeGroup';
 import Heading from '../heading/Heading';
 import ReadMore from '../readMore/ReadMore';
-import './card.scss';
 
 const Card = ({ blog }) => {
   const {

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './blockquote.scss';
 
 const BlockQuote = ({ quote, author }) => (
   <blockquote className="blockquote">

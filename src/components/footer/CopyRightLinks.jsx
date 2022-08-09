@@ -3,7 +3,6 @@ import { links } from '../../data/footerLinks';
 import Copyright from '../../components/Copyright';
 import FooterLinks from '../../components/footer/FooterLinks';
 import FooterSection from '../../components/footer/FooterSection';
-import './footerCopyrightLinks.scss';
 
 const CopyRightLinks = () => (
   <FooterSection

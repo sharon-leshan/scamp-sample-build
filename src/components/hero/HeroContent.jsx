@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './heroContent.scss';
 
 const HeroContent = ({
   subHeading,

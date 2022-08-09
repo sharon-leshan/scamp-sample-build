@@ -2,7 +2,6 @@ import React from 'react';
 import NavListItem from '../nav/NavListItem';
 import NavList from '../nav/NavList';
 
-import './verticalTab.scss';
 
 const VerticalTab = ({ title, categories }) => {
   return (

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './authorDate.scss';
 
 const AuthorDate = ({ author, date }) => {
   return (

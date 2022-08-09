@@ -2,7 +2,6 @@ import React from 'react';
 import useWindowSize from '../../hooks/useWindowSize';
 import { blogs as blogCardData } from '../../data/blogs';
 import BlogPostCard from './Card';
-import './overview.scss';
 
 const Overview = () => {
   const { width } = useWindowSize();

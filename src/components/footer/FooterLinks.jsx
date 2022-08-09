@@ -2,7 +2,6 @@ import React from 'react';
 
 import FooterLink from '../footer/FooterLink';
 
-import './footerLinks.scss';
 
 const FooterLinks = ({ heading, data, isOnlyRow }) => {
   return (

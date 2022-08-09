@@ -1,5 +1,4 @@
 import React from 'react';
-import './headingSupportingText.scss';
 
 const HeadingandSupportingText = ({ heading, supportingtTxt }) => {
   return (

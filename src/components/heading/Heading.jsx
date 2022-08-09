@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 
 import { ReactComponent as IconWrap } from '../../assets/icons/Icon-wrap.svg';
 
-import './heading.scss';
 
 const Heading = ({ title, id }) => {
   const navigateTo = useNavigate();

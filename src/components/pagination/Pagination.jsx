@@ -4,7 +4,6 @@ import PaginationBtn from '../pagination/Button';
 import PaginationNumbers from '../pagination/Numbers';
 import { ReactComponent as ArrowLeft } from '../../assets/icons/arrow-left.svg';
 import { ReactComponent as ArrowRight } from '../../assets/icons/arrow-right.svg';
-import './pagination.scss';
 
 const Pagination = () => {
   const { width } = useWindowSize();

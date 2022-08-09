@@ -1,10 +1,7 @@
 import React from 'react';
 
 import { ReactComponent as Logo } from '../assets/icons/logo.svg';
-import {
-  ListingPageFooterC1,
-  ListingPageFooterC2,
-} from '../data/footerLinks';
+import { ListingPageFooterC1, ListingPageFooterC2 } from '../data/footerLinks';
 
 import BlogCategories from '../components/blog/Categories';
 import BlogOverview from '../components/blog/Overview';
@@ -18,7 +15,6 @@ import HeroSection from '../components/hero/HeroSection';
 import NewsletterCTA from '../components/newsletterCTA/NewsletterCTA';
 import Pagination from '../components/pagination/Pagination';
 
-import './listing.scss';
 
 const ListingPage = () => {
   return (

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './image.scss';
 
 const Image = ({ imgURL, caption, ...props }) => (
   <figure className="figure-container" {...props}>

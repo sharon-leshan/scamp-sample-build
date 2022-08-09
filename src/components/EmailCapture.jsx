@@ -4,7 +4,6 @@ import CustomInput from './customTags/Input/Input';
 
 import useInput from '../hooks/useInput';
 
-import './emailCapture.scss';
 
 const EmailCapture = ({ children, className }) => {
   const { value, handleChange } = useInput();

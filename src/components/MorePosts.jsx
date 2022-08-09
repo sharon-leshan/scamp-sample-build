@@ -1,11 +1,10 @@
 import React from 'react';
 
-import {blogs as  blogCardData } from '../data/blogs';
+import { blogs as blogCardData } from '../data/blogs';
 
-import BlogPostCard from './blog/Card'
+import BlogPostCard from './blog/Card';
 import CTAButton from './CTAButton';
 
-import './morePosts.scss';
 
 const MorePosts = () => (
   <div className="more-posts">

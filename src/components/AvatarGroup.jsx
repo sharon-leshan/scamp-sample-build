@@ -2,7 +2,6 @@ import React from 'react';
 
 import AuthorDate from './AuthorDate';
 
-import './avatarLabelGroup.scss';
 
 const AvatarGroup = ({ imageURL, author, date, ...otherProps }) => {
   return (

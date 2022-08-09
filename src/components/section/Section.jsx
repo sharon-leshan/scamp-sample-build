@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './section.scss';
 
 const Section = ({ heading, children }) => (
   <section aria-labelledby="heading" className="section-with-heading">

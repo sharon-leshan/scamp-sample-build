@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './attributionCard.scss';
 
 const AttributionCard = ({ author, date, category }) => (
   <section className="attribution-card" aria-label="attribution card">

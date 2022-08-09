@@ -2,7 +2,6 @@ import React from 'react';
 import VerticalTab from '../verticalTab/VerticalTab';
 import Search from './Search';
 
-import './sidebar.scss';
 
 const Sidebar = ({ categories }) => {
   return (

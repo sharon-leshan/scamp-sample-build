@@ -5,7 +5,6 @@ import { ReactComponent as Twitter } from '../../assets/icons/twitter-lg.svg';
 import { ReactComponent as Facebook } from '../../assets/icons/facebook-lg.svg';
 import { ReactComponent as LinkedIn } from '../../assets/icons/linkedIn-lg.svg';
 
-import './social-links.scss';
 
 const SocialLinks = () => {
   return (

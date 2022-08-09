@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-import './dropdown.scss';
 
 const Dropdown = ({ categories }) => {
   const [inputValue, setInputValue] = useState('');

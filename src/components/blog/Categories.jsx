@@ -1,6 +1,6 @@
 import React from 'react';
 import useWindowSize from '../../hooks/useWindowSize';
-import CustomDropdown from '../customTags/Dropdown/Dropdown'
+import CustomDropdown from '../customTags/Dropdown/Dropdown';
 import Sidebar from '../sidebar/Sidebar';
 
 const Categories = () => {

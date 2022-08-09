@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './badgeGroup.scss';
 
 const BadgeGroup = ({ badge, message, className }) => {
   return (

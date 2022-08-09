@@ -21,7 +21,6 @@ import Header from './components/header/Header';
 import BlogPostPage from './pages/Blog';
 import ListingPage from './pages/Listing';
 
-import './App.scss';
 
 const App = () => {
   return (

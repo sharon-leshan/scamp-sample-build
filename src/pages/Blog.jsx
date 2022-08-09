@@ -3,12 +3,12 @@ import { useParams } from 'react-router-dom';
 
 import useWindowSize from '../hooks/useWindowSize';
 import { blogs as blogCardData } from '../data/blogs';
-import { BlogPageFooterC1,BlogPageFooterC2 } from '../data/footerLinks';
+import { BlogPageFooterC1, BlogPageFooterC2 } from '../data/footerLinks';
 import { ReactComponent as Logo } from '../assets/icons/logo.svg';
 
 import AvatarGroup from '../components/AvatarGroup';
 import BlogImage from '../components/blog/Image';
-import BlogSection from '../components/blog/Section'
+import BlogSection from '../components/blog/Section';
 import BlogTypeCategories from '../components/blog/CategoryType';
 import Footer from '../components/footer/Footer';
 import HeadingandSupportingText from '../components/heading/HeadingandSupportingText';
@@ -16,7 +16,6 @@ import HeroContent from '../components/hero/HeroContent';
 import HeroSection from '../components/hero/HeroSection';
 import MorePosts from '../components/MorePosts';
 import Section from '../components/section/Section';
-import './blog.scss';
 import FooterEmailSection from '../components/footer/EmailSection';
 import FooterCopyRightLinks from '../components/footer/CopyRightLinks';
 import FooterLinks from '../components/footer/FooterLinks';

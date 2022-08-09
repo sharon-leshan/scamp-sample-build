@@ -2,7 +2,6 @@ import React from 'react';
 
 import { ReactComponent as SearchIcon } from '../../../assets/icons/search-lg.svg';
 
-import './input.scss';
 
 const Input = ({ inputValue, handleChange, ...otherProps }) => {
   const { type } = otherProps;

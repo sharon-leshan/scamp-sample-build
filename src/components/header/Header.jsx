@@ -7,7 +7,6 @@ import MenuBtn from '../MenuBtn';
 import NavListItem from '../nav/NavListItem';
 import NavList from '../nav/NavList';
 
-import './header.scss';
 
 const Header = () => {
   const headerData = [

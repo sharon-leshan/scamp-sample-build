@@ -1,6 +1,5 @@
 import React from 'react';
 import { Badge } from '../BadgeGroup';
-import './categoryType.scss';
 
 const CategoryTyoe = ({ categories }) => {
   const categoriesArray = categories.split(', ');

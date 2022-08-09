@@ -2,7 +2,6 @@ import React from 'react';
 
 import useWindowSize from '../../hooks/useWindowSize';
 
-import './button.scss';
 
 const Button = ({ children, text, className }) => {
   const { width } = useWindowSize();

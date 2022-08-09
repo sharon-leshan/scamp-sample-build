@@ -1,7 +1,6 @@
 import React from 'react';
 import ParagraphSection from '../paragraphSection/ParagraphSection';
 import Section from '../section/Section';
-import './conclusion.scss';
 
 const Conclusion = () => (
   <div className="conclusion">
